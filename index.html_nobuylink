@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="Keywords" content="e-cig,el-cig,E Cigarettes,电子烟,aspire,戒烟,二手烟,electronic cigarette,焦油,尼古丁,一氧化碳,肺癌,烟油,charlie's,查理,查理斯,charlie's chalk dust">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="img/favicon.ico">
+
+    <title>E-cigarette|Aspire</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <script src="js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Custom styles for this template -->
+    <link href="css/carousel.css?v=0.20" rel="stylesheet">
+  </head>
+<!-- NAVBAR
+================================================== -->
+  <body>
+    <div class="navbar-wrapper">
+      <div class="container">
+
+        <nav class="navbar navbar-inverse navbar-static-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">Electronic-Cigarette | Aspire</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#">首页</a></li>
+		<!--
+                <li><a href="#contact">购买</a></li>
+		-->
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">产品列表 <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <!--<li><a href="http://mp.weixin.qq.com/s?__biz=MzI0MTA3MTQyMg==&mid=207133152&idx=1&sn=14d01734c4c17ba57b8229cf29540cc3&scene=18#rd" target="about_blank">雾化器</a></li>
+                    <li><a href="http://mp.weixin.qq.com/s?__biz=MzI0MTA3MTQyMg==&mid=207133238&idx=1&sn=718bbb585628c9aba34c8a41ad540c47&scene=18#rd" target="about_blank">电子烟套装</a></li>
+                    <li><a href="http://mp.weixin.qq.com/s?__biz=MzI0MTA3MTQyMg==&mid=207133405&idx=1&sn=14a4234b9728f2dd1e3954266bbdc034&scene=18#rd" target="about_blank">电子烟配件</a></li>
+                    <li><a href="http://mp.weixin.qq.com/s?__biz=MzI0MTA3MTQyMg==&mid=207133312&idx=1&sn=f2d80dfade0db1db0f11960dc02bae8c&scene=18#rd" target="about_blank">烟油</a></li>
+		    -->
+		    <li>雾化器</li>
+		    <li>雾化芯</li>
+		    <!--
+                    <li role="separator" class="divider"></li>
+                    <li class="dropdown-header">烟油</li>
+                    <li><a href="#">Tiger</a></li>
+                    <li><a href="#">Dragon</a></li>
+		    -->
+                  </ul>
+                </li>
+                <li>
+		<a href="http://www.aspirecig.com/products/triton/triton214.html" target="about_blank">关于</a>
+		</li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+      </div>
+    </div>
+
+
+    <!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img class="first-slide" src="img/portal/slide1.jpg" alt="First slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h3>细腻口感 热销爆款 健康新潮</h3>
+              <p>E-CIG主营Aspire电子烟产品以及Charlie's美国进口烟油</p>
+	      <!--
+              <p><a class="btn btn-lg btn-primary" href="#contact" role="button">立即购买</a></p>
+	      -->
+            </div> </div>
+        </div>
+        <div class="item">
+          <img class="second-slide" src="img/portal/slide2.png" alt="Second slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h3>Charlie's Chalk Dust</h3>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="third-slide" src="img/portal/slide3.png" alt="Third slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h3>Aspire雾化器</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div><!-- /.carousel -->
+
+
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing">
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-4">
+          <img class="img-circle" src="img/head01.jpg" alt="提神" width="140" height="140">
+          <h2>提神醒脑</h2>
+          <p>抽烟所产生的振奋感来自烟草燃烧时释放的尼古丁...</p>
+          <p>
+	  <a class="btn btn-default" href="#modal1" role="button" data-toggle="modal">了解详情&raquo;</a>
+	  </p>
+	  <!-- Modal -->
+	  <div id="modal1" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	  	<div class="modal-dialog">
+	  	<div class="modal-content">
+	  	<div class="modal-header">
+		<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+		<h3 id="myModalLabel">提神醒脑</h3>
+		</div>
+		<div class="modal-body">
+		<p>平常抽烟所产生的振奋感来自于烟草燃烧时释放的尼古丁，尼古丁在适量情况下不会对人体产生危害。它会刺激交感神经，借由刺激内脏神经影响副肾髓质，释放肾上腺素。副交感神经节前纤维释放乙酰胆碱，作用在烟碱酸乙酰胆碱接受器上，使之释放肾上腺素和正肾上腺素至血液中。从而让人精神一振</p>
+		</div>
+		<div class="modal-footer">
+		<button class="btn" data-dismiss="modal" aria-hidden="true">确定</button>
+		</div>
+	</div>
+	</div>
+	</div>
+	<!--Modal-->
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src="img/head02.jpg" alt="健康" width="140" height="140">
+          <h2>拒绝烟肺</h2>
+          <p>电子烟不含焦油，一氧化碳等致癌物质...</p>
+          <p><a class="btn btn-default" href="#modal2" role="button" data-toggle="modal">了解详情 &raquo;</a></p>
+	  <!-- Modal -->
+	  <div id="modal2" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	  	<div class="modal-dialog">
+	  	<div class="modal-content">
+	  	<div class="modal-header">
+		<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+		<h3 id="myModalLabel">拒绝烟肺</h3>
+		</div>
+		<div class="modal-body">
+		<p>电子烟产生雾的原理是通过烟油的蒸馏雾化，跟传统烟草是通过燃烧的原理不一样。燃烧的温度可达800~1000度，而电子烟的雾化温度是170~200度左右。传统香烟在这么高的温度下，产生很多种分解的物质，可达4000余种，其中有近一半我们不清楚是什么物质。但电子烟烟油的物质组成是可以清楚了解的，是有甘油、水、植物提取液、适量尼古丁等成分组成，基本无有害物质。所以电子烟更准确的名称应该是电子雾</P>
+		</div>
+		<div class="modal-footer">
+		<button class="btn" data-dismiss="modal" aria-hidden="true">确定</button>
+		</div>
+	</div>
+	</div>
+	</div>
+	<!--Modal-->
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src="img/head03.jpg" alt="正品" width="140" height="140">
+          <h2>质量过关</h2>
+          <p>大牌厂商，品质保障，值得信赖...</p>
+          <p><a class="btn btn-default" href="#modal3" role="button" data-toggle="modal">了解详情 &raquo;</a></p>
+	  <!-- Modal -->
+	  <div id="modal3" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	  	<div class="modal-dialog">
+	  	<div class="modal-content">
+	  	<div class="modal-header">
+		<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+		<h3 id="myModalLabel">质量过关</h3>
+		</div>
+		<div class="modal-body">
+		<p>电子烟目前还属于较为新潮的事物，虽然国外已经被不少人接受，保守的国人接受起来比较慢。这其中很大一部分原因是大家对电子烟不够了解，因此选择一款高端知名的电子烟是非常必要的。一些小的厂家在生产雾化器的时候不够正规，会导致雾化器制造过程残留重金属，导致雾化器加热使用过程可能产生危害人体健康的物质。而非知名品牌生产的烟油品质更是难以保障，比如烟油原料中香精的选择，尼古丁用量的控制等。E-cig代理的Aspire产品畅销海内外，尤其在美国拥有大批客户群。名牌产品，值得信赖。代理的烟油产品也均选自来自美国的高端品牌，为您的健康做好把关。</P>
+		</div>
+		<div class="modal-footer">
+		<button class="btn" data-dismiss="modal" aria-hidden="true">确定</button>
+		</div>
+	</div>
+	</div>
+	</div>
+	<!--Modal-->
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+
+
+      <!-- START THE FEATURETTES -->
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+	<h2 class="featurette-heading">精品</h2>
+        <p class="lead">年轻人喜欢的玩法，成熟男士的选择。高端品牌，精致做工，给精致的你</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive center-block" src="img/intro2.png"alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7 col-md-push-5">
+	<h2 class="featurette-heading">健康</h2>
+        <p class="lead">放下卷烟，停止焦油、一氧化碳摄入。享受放松的过程，不要忽视自己的健康</p>
+        </div>
+        <div class="col-md-5 col-md-pull-7">
+          <img class="featurette-image img-responsive center-block" src="img/intro1.png" alt="Generic placeholder image">
+        </div>
+      </div>
+
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+	<h2 class="featurette-heading">关爱</h2>
+        <p class="lead">关爱自己，关爱身边人，家人的微笑，是最好的礼物</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive center-block" src="img/intro3.png"alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7 col-md-push-5">
+	<h2 class="featurette-heading">孝敬</h2>
+        <p class="lead">父母身体抵抗力越来越弱，夹烟的手指已经微微发黄，是时候换一种生活方式了，给老爸带一只电子烟回家吧。减少伤害，更能辅助戒烟</p>
+        </div>
+        <div class="col-md-5 col-md-pull-7">
+          <img class="featurette-image img-responsive center-block" src="img/intro4.png" alt="Generic placeholder image">
+        </div>
+      </div>
+      <!--
+      <hr class="featurette-divider">
+
+      <a name="contact" >
+      <div class="row featurette">
+        <div class="col-md-7">
+          <p class="lead">立即扫描右侧二维码咨询购买</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive center-block" src="img/contact_wechat.jpg" alt="Generic placeholder image">
+        </div>
+      </div>
+      </a>
+      -->
+
+      <hr class="featurette-divider">
+      相关资讯：
+      <ul>
+      <li><a href="https://en.wikipedia.org/wiki/Electronic_cigarette">电子烟-wikipedia</a></li>
+      <li><a href="http://www.aspirecig.com/">Aspire e-cig</a></li>
+      <li><a href="http://charlieschalkdust.com/">Charlie's Chalk Dust</a></li>
+      <li><a href="http://mp.weixin.qq.com/s?__biz=MzI0MTA3MTQyMg==&mid=207134852&idx=1&sn=79102e3b310ed98e21ba26ea4922d58b&scene=18#rd">电子烟大咖玩家秀</a></li>
+      <li><a href="http://tech.ifeng.com/a/20141212/40902415_0.shtml">凤凰科技：美国青少年吸烟现状：电子水烟日益流行</a></li>
+      <li><a href="http://v.youku.com/v_show/id_XODQwNDM2NzQw.html#paction">马克评测：令人印象深刻的霧化器 - Atlantis</a></li>
+      <li><a href="http://v.youku.com/v_show/id_XODQxNjE5MzY0.html">Vaping Reviews + Tutors：鹦鹉螺亚特兰蒂斯测评 亚特兰蒂斯 成品雾化</a></li>
+      <li><a href="http://v.youku.com/v_show/id_XNzYwMjcxNjY0.html">Aspire Nautilus鹦鹉螺雾化器开箱</a></li>
+      <li><a href="http://v.youku.com/v_show/id_XOTMzNDcwNzIw.html">Aspire 迷你鹦鹉螺评测</a></li>
+      <li><a href="http://v.youku.com/v_show/id_XODg2OTE3MDg4.html">孙绪：Nautilus VS Atlantis</a></li>
+      <li><a href="http://v.youku.com/v_show/id_XODc3NDA0NjMy.html">孙绪：电子烟入门知识</a></li>
+      </ul>
+
+      <hr class="featurette-divider">
+      <!-- /END THE FEATURETTES -->
+
+    <!-- bshare -->
+    <div class="bshare-custom">
+    	<a title="分享到QQ空间" class="bshare-qzone"></a>
+    	<a title="分享到新浪微博" class="bshare-sinaminiblog"></a>
+    	<a title="分享到人人网" class="bshare-renren"></a>
+    	<a title="分享到腾讯微博" class="bshare-qqmb"></a>
+    	<a title="分享到网易微博" class="bshare-neteasemb"></a>
+    	<a title="更多平台" class="bshare-more bshare-more-icon more-style-addthis"></a>
+    	<span class="BSHARE_COUNT bshare-share-count">0</span>
+    </div>
+    <script type="text/javascript" charset="utf-8" src="http://static.bshare.cn/b/button.js#style=-1&amp;uuid=&amp;pophcol=2&amp;lang=zh">
+    </script>
+    <a class="bshareDiv" onclick="javascript:return false;"></a>
+    <script type="text/javascript" charset="utf-8" src="http://static.bshare.cn/b/bshareC0.js"></script>
+ 
+
+      <!-- FOOTER -->
+      <footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>&copy;2011 E-Cig, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+      </footer>
+
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+ </body>
+</html>
