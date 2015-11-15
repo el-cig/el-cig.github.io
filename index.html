@@ -25,6 +25,34 @@
 
     <!-- Custom styles for this template -->
     <link href="css/carousel.css?v=0.20" rel="stylesheet">
+
+    <!-- QQ客服css -->
+    <style>
+    *{ margin:0; padding:0; list-style:none;}
+    img{ border:0;}
+    .rides-cs {  font-size: 12px; background:#29a7e2; position: fixed; top: 250px; right: 0px; _position: absolute; z-index: 1500; border-radius:6px 0px 0 6px;}
+    .rides-cs a { color: #00A0E9;}
+    .rides-cs a:hover { color: #ff8100; text-decoration: none;}
+    .rides-cs .floatL { width: 36px; float:left; position: relative; z-index:1;margin-top: 21px;height: 181px;}
+    .rides-cs .floatL a { font-size:0; text-indent: -999em; display: block;}
+    .rides-cs .floatR { width: 130px; float: left; padding: 5px; overflow:hidden;}
+    .rides-cs .floatR .cn {background:#F7F7F7; border-radius:6px;margin-top:4px;}
+    .rides-cs .cn .titZx{ font-size: 14px; color: #333;font-weight:600; line-height:24px;padding:5px;text-align:center;}
+    .rides-cs .cn ul {padding:0px;}
+    .rides-cs .cn ul li { line-height: 38px; height:38px;border-bottom: solid 1px #E6E4E4;overflow: hidden;text-align:center;}
+    .rides-cs .cn ul li span { color: #777;}
+    .rides-cs .cn ul li a{color: #777;}
+    .rides-cs .cn ul li img { vertical-align: middle;}
+    .rides-cs .btnOpen, .rides-cs .btnCtn {  position: relative; z-index:9; top:25px; left: 0;  background-image: url(img/qservice.png); background-repeat: no-repeat; display:block;  height: 146px; padding: 8px;}
+    .rides-cs .btnOpen { background-position: 0 0;}
+    .rides-cs .btnCtn { background-position: -37px 0;}
+    .rides-cs ul li.top { border-bottom: solid #ACE5F9 1px;}
+    .rides-cs ul li.bot { border-bottom: none;}
+    </style>
+    </head>
+    <body style="height:2000px;">
+    <!-- QQ客服css -->
+	
   </head>
 <!-- NAVBAR
 ================================================== -->
@@ -100,7 +128,6 @@
         <span class="sr-only">Next</span>
       </a>
     </div><!-- /.carousel -->
-
 
     <!-- Marketing messaging and featurettes
     ================================================== -->
@@ -280,12 +307,11 @@
       <!-- FOOTER -->
       <footer>
         <p class="pull-right"><a href="#">Back to top</a></p>
-        <p>&copy;2011 meiliao, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+        <p>&copy;2011 meiliao, Inc. &middot; <a href="#">Terms</a></p>
       </footer>
 
     </div><!-- /.container -->
-
-
+	
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
@@ -293,5 +319,41 @@
     <script src="js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="js/ie10-viewport-bug-workaround.js"></script>
+
+<!-- qq 客服-->
+	<div id="floatTools" class="rides-cs" style="height:246px;">
+  <div class="floatL">
+  	<a id="aFloatTools_Show" class="btnOpen" title="查看在线客服" style="top:20px;display:block" href="javascript:void(0);">展开</a>
+  	<a id="aFloatTools_Hide" class="btnCtn" title="关闭在线客服" style="top:20px;display:none" href="javascript:void(0);">收缩</a>
+  </div>
+  <div id="divFloatToolsView" class="floatR" style="display: none;height:237px;width: 140px;">
+    <div class="cn">
+      <h3 class="titZx">懒人之家在线客服</h3>
+      <ul>
+        <li><span>VIP客服1</span> <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=961885558&site=qq&menu=yes"><img border="0" src="img/qonline.png" alt="点击这里给我发消息" title="点击这里给我发消息"/></a> </li>
+        <li><span>VIP客服2</span> <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=961885558&site=qq&menu=yes"><img border="0" src="img/qonline.png" alt="点击这里给我发消息" title="点击这里给我发消息"/></a> </li>
+        <li><span>VIP客服3</span> <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=961885558&site=qq&menu=yes"><img border="0" src="img/qonline.png" alt="点击这里给我发消息" title="点击这里给我发消息"/></a> </li>
+        <li style="border:none;"><span>电话：400-618-7855</span> </li>
+      </ul>
+    </div>
+  </div>
+</div>
+<script src="http://www.lanrenzhijia.com/ajaxjs/jquery.min.js"></script>
+<script>
+	$(function(){
+		$("#aFloatTools_Show").click(function(){
+			$('#divFloatToolsView').animate({width:'show',opacity:'show'},100,function(){$('#divFloatToolsView').show();});
+			$('#aFloatTools_Show').hide();
+			$('#aFloatTools_Hide').show();				
+		});
+		$("#aFloatTools_Hide").click(function(){
+			$('#divFloatToolsView').animate({width:'hide', opacity:'hide'},100,function(){$('#divFloatToolsView').hide();});
+			$('#aFloatTools_Show').show();
+			$('#aFloatTools_Hide').hide();	
+		});
+	});
+</script>
+<!-- qq 客服-->
+
  </body>
 </html>
